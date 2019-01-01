@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	/* background-image: url("../../picture/background_svet.jpg"); */
+    height: auto; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+.grid_content{
+	width: 90%;
+	margin: auto;
+}
+.grid_svet{
+	height: auto;
+	margin-top: 100px;
+
+}
+.menu_svet{
+	height: 180px;
+	width: auto;
+	margin: 0 auto;
+	border-radius: 30px;
+	border: 15px solid #281912;
+	background: radial-gradient(ellipse at center, #443501 0%,#000000 100%);
+	transition: 0.4s;
+}
+.menu_svet:hover{
+	cursor: pointer;
+	transform: scale(1.05);
+}
+.text_In_Grid{
+	text-align: center;
+    line-height: 140px;
+    font-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #cfc09f 22%,#634f2c 24%, #cfc09f 26%, #cfc09f 27%,#ffecb3 40%,#3a2c0f 78%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+}
+.responsive_img {
+  width: 100%;
+  height: auto;
+}

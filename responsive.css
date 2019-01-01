@@ -1,0 +1,16 @@
+@media screen and (max-width: 992px) {	
+	/* Menu after responsive */
+	div#navbarSupportedContent {
+		background: #392828;
+		position: absolute;
+		width: 100%;
+		padding: 0px;
+		margin: 196px 0px 0px -16px;
+	}
+
+	.active-link{
+		color: white;
+		border-bottom: none;
+	}
+
+}

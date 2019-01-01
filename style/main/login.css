@@ -1,0 +1,95 @@
+.black_modal{
+	position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4);
+    z-index: 9;
+}
+
+.hide{	display: none;	}
+
+.login_panel{
+	width: 500px;
+	height: auto;
+	position: absolute;
+	margin-top: 125px;
+	border: 1px solid black;
+	background: #ffffff;
+	border-radius: 10px;
+	left: 0; 
+  	right: 0; 
+  	margin-left: auto; 
+  	margin-right: auto;  
+    z-index: 10;
+}
+
+.txt_prihlaseni{
+	width: 100%;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 5px;
+}
+
+.username{
+	width: 100%;
+	height: auto;
+}
+.password{
+	width: 100%;
+	height: auto;
+}
+
+.input_info{
+	display: table;
+	margin: 0 auto;
+	width: 70%;
+	margin-top: 30px;
+	font-size: 18px;
+	padding-left: 5px;
+	border: none;
+	border-bottom: 1.5px solid black;
+	outline: none;
+}
+
+.btn_login{
+	display: table;
+    margin: auto;
+    margin-top: 35px;
+    width: 55%;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    background: #9d7668;
+    border: 1px solid #7e6157;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.4s;
+    color: #ffffff;
+}
+.btn_login:hover{
+	background: #7e5f54;
+}
+.forgetPass_register{
+	width: 100%;
+	margin-top: 20px;
+}
+span.register {
+    float: right;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+span.forget_pass {
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.waring{
+    color:red;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 90px;
+}

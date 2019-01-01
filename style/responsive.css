@@ -1,0 +1,59 @@
+@media screen and (max-width: 992px) {	
+	body{
+		background-image: none;
+	}
+	/* Menu after responsive */
+	div#navbarSupportedContent {
+		background: #392828;
+		position: absolute;
+		width: 100%;
+		padding: 0px;
+		margin: 196px 0px 0px -16px;
+		z-index: 10;
+		transition: 0s !important;
+	}
+
+	.hideNavbarSupportedContent{
+		display: none;
+	}
+
+	.active-link{
+		color: white;
+		border-bottom: none;
+	}
+	
+	.login_panel{
+		height: auto;
+		width: 300px;
+		margin-top: 50px;
+	}
+	.forgetPass_register{
+		margin-top: 25px;
+	}
+	span.register {
+		float: none;
+		display: table;
+		margin: auto;
+		margin-bottom: 20px;
+	}
+	span.forget_pass {
+		margin-top: 20px;
+		display: table;
+		margin: auto;
+		margin-bottom: 10px;
+	}
+.waring{
+    color:red;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 50px;
+	}
+
+	
+/*Svet*/
+.menu_svet:hover{
+	cursor: pointer;
+	transform: none;
+}
+}
+
